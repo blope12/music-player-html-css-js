@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+margin: 0;
+padding:0;
+font-family: "Bebas Neue", sans-serif;
+background:linear-gradient(to right, #50b1b4,#3ac9ce);
+}
+
+.container {
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+border: 3px solid #1a67da ;
+border-radius: 30px;
+top: 100px;
+width: 400px;
+height: 500px;
+margin: auto;
+flex-direction: column;
+}
+
+.container h1{
+position: absolute;
+top:10px ;
+font-size: 35px;
+}
+
+.container img{
+position: absolute;
+width: 300px;
+border-radius: 30px;
+top: 40px;
+}
+
+.container audio{
+position: relative;
+top: 150px;
+
+}
+
+
+.controls{
+position: relative;
+top: 170px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.controls button i {
+color: #fff; /* رنگ آیکون */
+
+}
+i {
+    font-size: 40px; /* یا font-size: 200%; */
+    cursor: pointer;
+transition: all 0.2s ease;
+}
+i:hover{
+    font-size: 45px; /* یا font-size: 200%; */
+
+
+
+}
